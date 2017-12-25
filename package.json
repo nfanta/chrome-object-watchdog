@@ -4,7 +4,8 @@
   "description": "A small extension to chrome devtools to break on several object manipulations.",
   "main": "object-watchdog.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/nfanta/chrome-object-watchdog#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.10.0"
   }
 }
