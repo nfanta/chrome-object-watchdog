@@ -1,0 +1,19 @@
+{
+  "name": "chrome-object-watchdog",
+  "version": "1.0.0",
+  "description": "A small extension to chrome devtools to break on several object manipulations.",
+  "main": "object-watchdog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfanta/chrome-object-watchdog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfanta/chrome-object-watchdog/issues"
+  },
+  "homepage": "https://github.com/nfanta/chrome-object-watchdog#readme"
+}
